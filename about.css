@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+body  {
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+
+
+
+.center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(75, 75, 250, 0.3);
+  border-radius: 3px;
+  
+}
+.center h1{
+  text-align:center;
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform:uppercase;
+  padding-bottom: 300px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+hr {
+    border: none;
+    border-top: 3px solid black; /* Makes the HR visible */
+    width: 100%;
+    margin: 50px 0; /* Adds space above and below */
+    display: block;
+    position: relative; /* Keeps HR in normal flow */
+    z-index: 1; /* Ensures it's in the right layer */
+}
+
+.paragraph {
+    margin-top: 160px !important; /* Forces extra space above the paragraph */
+    padding-top: 0px; /* Adds internal spacing */
+    position: relative;
+    z-index: 2; /* Ensures paragraph is above the HR */
+    color:white;
+}
+.transparent-image {
+    opacity: 0.5; /* 50% transparent */
+}
+section {
+    margin-bottom: 50px; /* Adjust space between sections */
+}
+h3 {
+    font-family: 'Source Code Pro', monospace;
+    color: rgba(234, 222, 222, 0.991) !important;
+    margin-top: 50px;
+    font-weight: bold !important;
+    
+}
+
+

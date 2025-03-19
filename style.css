@@ -21,9 +21,15 @@ body {
   background-attachment: fixed; /* Keeps the background fixed when scrolling */
   height: 100vh;
   margin: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
+  
+}
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card {
   background: rgba(255, 255, 255, 0.2); /* White with transparency */
@@ -92,4 +98,39 @@ body {
   font-size: 26px;
   font-family: cursive;
   color: aqua;
+}
+#project-header {
+  font-weight: bold; /* Make it more visible */
+  font-size: 2rem;
+  border-bottom: 1px solid #cccccc;
+  color: white !important; /* Ensures visibility */
+  text-align: center;
+  padding: 20px 0;
+}
+
+.project {
+  width: calc(100% - 6em);
+  background: (205, 205, 199, 1);
+  color: #222;
+  box-shadow: 0 3px 6px -2px #ccc;
+  margin: 2em auto;
+  padding: 1em;
+}
+h3 {
+  font-family: "Source Code Pro", monospace;
+  color: rgba(234, 222, 222, 0.991) !important;
+  margin-top: 50px;
+  font-weight: bold !important;
+}
+p {
+  font-family: "Source Code Pro", monospace;
+  color: rgba(234, 222, 222, 0.991) !important;
+  margin-top: 50px;
+  font-weight: bold !important;
+}
+h1 {
+  padding-top: 80px !important;
+}
+.portfolio-page {
+    display: block; /* Ensures normal document flow */
 }
