@@ -44,8 +44,8 @@ body {
   position: absolute;
   top: 70px;
   left: 20px;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%; /* Makes it circular */
   border: 3px solid white;
   object-fit: cover; /* Ensures image fills the circle */
