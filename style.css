@@ -24,18 +24,17 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
-  
 }
 .home-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card {
-  background: rgba(255, 255, 255, 0.2); /* White with transparency */
+  background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px); /* Glass effect */
-  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
-  color: white; /* Ensures text remains visible */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
 }
 #qoute {
   font-family: "Satisfy", cursive;
@@ -43,12 +42,12 @@ body {
 }
 .profile-pic {
   position: absolute;
-  top: 70px; /* Adjust to move below the navbar */
-  left: 20px; /* Align to the left */
-  width: 150px; /* Adjust size */
+  top: 70px;
+  left: 20px;
+  width: 150px;
   height: 150px;
   border-radius: 50%; /* Makes it circular */
-  border: 3px solid white; /* Optional: adds a white border */
+  border: 3px solid white;
   object-fit: cover; /* Ensures image fills the circle */
 }
 /* Quote Container */
@@ -64,8 +63,8 @@ body {
 .quote-text::after {
   content: "";
   position: absolute;
-  width: 300px; /* Length of the lines */
-  height: 4px; /* Thickness of the lines */
+  width: 300px;
+  height: 4px;
   background-color: black; /* Color of the lines */
 }
 
@@ -100,10 +99,10 @@ body {
   color: aqua;
 }
 #project-header {
-  font-weight: bold; /* Make it more visible */
+  font-weight: bold;
   font-size: 2rem;
   border-bottom: 1px solid #cccccc;
-  color: white !important; /* Ensures visibility */
+  color: white !important;
   text-align: center;
   padding: 20px 0;
 }
@@ -132,5 +131,5 @@ h1 {
   padding-top: 80px !important;
 }
 .portfolio-page {
-    display: block; /* Ensures normal document flow */
+  display: block; /* Ensures normal document flow */
 }

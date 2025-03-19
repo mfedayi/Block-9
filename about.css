@@ -55,9 +55,9 @@ to {background-position: -100px 0px;background-size:2750px;}
 }
 hr {
     border: none;
-    border-top: 3px solid black; /* Makes the HR visible */
+    border-top: 3px solid black; 
     width: 100%;
-    margin: 50px 0; /* Adds space above and below */
+    margin: 50px 0; 
     display: block;
     position: relative; /* Keeps HR in normal flow */
     z-index: 1; /* Ensures it's in the right layer */
