@@ -25,6 +25,59 @@ body {
   align-items: center;
   display: flex;
 }
+/* Square container */
+.container {
+  width: 100vh;
+  background: rgb(241, 222, 222);
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  margin-top: 100px;
+  position: relative;
+}
+.contact-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: -30px;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-50%);
+}
+.input-group {
+  width: 100%; /* Ensures it takes full width of the column */
+  display: flex;
+}
+.input-group-text {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  height: 100%;
+}
+.input-group .form-control {
+  flex-grow: 1;
+  min-width: 250px;
+}
+
+h2 {
+  font-family: "Satisfy", cursive;
+  color: #333;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.contact-page {
+  background: linear-gradient(
+    to right,
+    #e8f0f5,
+    #90caf9
+  ); /* Adjust colors here */
+  /* Ensures it covers the full screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .home-page {
   display: flex;
   justify-content: center;
@@ -45,7 +98,7 @@ body {
   top: 70px;
   left: 20px;
   width: 200px;
-  height: 200px;
+  height: 20 0px;
   border-radius: 50%; /* Makes it circular */
   border: 3px solid white;
   object-fit: cover; /* Ensures image fills the circle */
@@ -129,7 +182,19 @@ p {
 }
 h1 {
   padding-top: 80px !important;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
 .portfolio-page {
   display: block; /* Ensures normal document flow */
+}
+@media screen and (max-width: 725px) {
+  #form {
+    margin: 0;
+  }
+}
+.needs-validation {
+  margin: 0 auto;
+  width: 50%;
 }
