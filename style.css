@@ -35,6 +35,10 @@ body {
   margin-top: 100px;
   position: relative;
 }
+.success-page .container {
+  background-color: rgba(186, 178, 178, 0.9);
+  width: 80vh;
+}
 .contact-title {
   text-align: center;
   font-size: 2.5rem;
@@ -82,6 +86,9 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.success-page {
+  background: linear-gradient(to right, #e8f0f5, #90caf9);
 }
 .card {
   background: rgba(255, 255, 255, 0.2);
